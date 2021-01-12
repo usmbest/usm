@@ -1,0 +1,33 @@
+# /etc/conf.d/usmd: config file for /etc/init.d/usmd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ctpcore/usm.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/usmd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/usmd.pid"
+
+# Where to write usmd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/usmd"
+
+# User and group to own usmd process
+#BITCOIND_USER="ctpcore"
+#BITCOIND_GROUP="ctpcore"
+
+# Path to usmd executable
+#BITCOIND_BIN="/usr/bin/usmd"
+
+# Nice value to run usmd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

@@ -1,0 +1,1 @@
+qt/qt_libusmqt_a-qrc_usm.o: qt/qrc_usm.cpp

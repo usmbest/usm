@@ -1,0 +1,1 @@
+qt/qt_libusmqt_a-qrc_usm_locale.o: qt/qrc_usm_locale.cpp
