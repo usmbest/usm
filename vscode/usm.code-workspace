@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "/home/lgc/usm"
+		},
+		{
+			"name": "usm",
+			"path": "/home/lgc/usm/usm"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
